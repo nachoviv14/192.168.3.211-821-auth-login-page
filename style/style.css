@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: "Adelle Sans";
+    src: url(/fonts/adelle-sans.otf) format(´opentype´);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-family: 'Adelle Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center;   /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    background-color: #000;
+}
+
+/* Estilo para el contenedor del logo */
+.logo-container {
+    margin-bottom: 70px; /* Espacio entre el logo y el formulario */
+
+}
+
+.logo {
+    width: 180px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+}
+
+/* Estilo del formulario */
+.s_text {
+    background: #fff;
+    border-radius: 50px;
+    width: 480px;
+    height: 470px;
+    padding: 30px 60px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#s_product {
+    font-family: 'Adelle Sans SAGE';
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 70px;
+}
+
+.s_field {
+    margin-bottom: 30px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.s_field label {
+    font-weight: 500;
+    font-size: 17px;
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Adelle Sans";
+}
+
+.s_field input {
+    width: 100%;
+    height: 48px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #668494;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.s_field input:focus {
+    box-shadow: 0 0 0 4px #FFB500;
+    outline: none;
+}
+
+#s_keepConnected_slot {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.s_input_check {
+    margin-right: 10px;
+}
+
+.s_submit {
+    background-color: #008146;
+    color: #fff;
+    border: none;
+    border-radius: 32px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Adelle Sans';
+}
+
+.s_submit:hover {
+    background-color: #006738;
+}
